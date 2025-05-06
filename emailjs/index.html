@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EmailJS Form with Validation</title>
+    <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <divs
+      id="response-message"
+      class="response-message"
+      style="display: none"
+    ></divs>
+
+    <form id="contact-form" method="POST" action="#">
+      <label for="Email">Email address *</label>
+      <div class="input-group">
+        <i class="lni lni-envelope"></i>
+        <input
+          type="email"
+          name="email"
+          class="input-control"
+          placeholder="Enter Email"
+        />
+      </div>
+
+      <label for="Name">Name *</label>
+      <div class="input-group">
+        <i class="lni lni-user"></i>
+        <input
+          type="text"
+          name="name"
+          class="input-control"
+          placeholder="Enter Name"
+        />
+      </div>
+
+      <label for="Message">Message *</label>
+      <textarea
+        name="message"
+        class="contact-msg"
+        rows="9"
+        placeholder="Enter Message"
+      ></textarea>
+      <div class="char-count">Characters: 0/500</div>
+
+      <div class="loader">
+        <i class="lni lni-spinner-solid"></i>
+      </div>
+
+      <div class="form-message"></div>
+      <button type="submit" class="btn-submit">Send Message</button>
+    </form>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
