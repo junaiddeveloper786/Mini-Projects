@@ -34,9 +34,13 @@ Each project demonstrates core web development skills with interactive and respo
 
 ---
 
-## 🌐 Live Demo (Optional)
+## 🌐 Live Demo
+✅ You can view the live version of this project at the links below:
 
-> ⚠️ Add GitHub Pages link or Netlify URL here if deployed.
+🔗 Netlify Deployment: https://junaid-mini-projects.netlify.app/
+
+🔗 GitHub Pages: https://junaiddeveloper786.github.io/Mini-Projects/
+
 
 ---
 
